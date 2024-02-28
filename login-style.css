@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: centere;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 400px;
+    height: 500px;
+}
+.login_page{
+    /* margin-left: 20px; */
+    height: 450px;
+    border-radius: 10px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top:20vh;
+}
+input{
+    outline: none;
+    border: 1px solid black;
+}
+.input-email{
+    width: 280px;
+    height: 30px;
+    padding: 5px 5px;
+    outline: none;
+    border-radius: 4px;
+    margin-left: 33px;
+    /* align-items: center; */
+}
+.input_pass{
+    margin-left: 33px;
+    outline: none;
+    padding: 5px 5px;
+    width: 280px;
+    height: 30px;
+    border-radius: 4px;
+}
+.login{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 36px;
+    background-color: blue;
+    outline: none;
+    border: 1px solid blue;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.login:active{
+    background-color: rgb(6, 6, 125);
+}
+.google{
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid rgb(62, 61, 61);
+    border-radius: 7px;
+    font-weight: 600;
+}
+.para{
+    margin-left: 20px;
+    color: rgb(67, 65, 65);
+    font-size: 12px;
+    text-align: center;
+}
+.para_span , a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.welcme{
+  text-align: center;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: rgb(148, 147, 147);
+}
+h1{
+   text-align: center;    padding-bottom: 20px;
+}
+label , .forget{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.Gicon{
+    margin-bottom: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 57px;
+    left: 90px;
+}
